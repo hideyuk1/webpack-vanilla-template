@@ -46,7 +46,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            // title: "Webpack 4 Starter",
+            // title: "Webpack 5 Starter",
             template: "./src/index.html",
             inject: true,
             minify: {
